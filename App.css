@@ -1,0 +1,39 @@
+/* Main Container */
+.container {
+  max-width: 600px;
+  margin: 2rem auto; /* Centers the container */
+  padding: 2rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Form Alignment */
+.add-form {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  gap: 1rem;
+  align-items: center; /* Center form items */
+  margin-bottom: 2rem;
+}
+
+/* Input Group */
+.input-group {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Todo Items */
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin: 0.5rem auto; /* Center each todo item */
+  width: 100%;
+  max-width: 500px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
